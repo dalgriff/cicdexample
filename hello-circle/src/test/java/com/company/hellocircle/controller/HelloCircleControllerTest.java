@@ -1,4 +1,4 @@
-package com.company.hellocircle;
+package com.company.hellocircle.controller;
 
 import com.company.hellocircle.controller.HelloCircleController;
 import org.junit.Test;
