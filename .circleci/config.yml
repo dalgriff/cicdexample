@@ -28,7 +28,7 @@ jobs:
       - run:
           name: Test
           #test_directory: /src/test/java/com/company/hellocircle/controller/HelloCircleController
-          command: mvn test -Dtest=src/test/java/com/company/hellocircle/*Test.java
+          command: mvn test -Dtest=src/test/java/com/company/hellocircle/controller/*Test.java
 
     # Invoke jobs via workflows
     # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
