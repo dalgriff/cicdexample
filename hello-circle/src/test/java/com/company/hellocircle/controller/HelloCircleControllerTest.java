@@ -26,7 +26,7 @@ public class HelloCircleControllerTest {
         // arrange and act
         mockMvc.perform(get("/answer"))
                 .andDo(print())
-                .andExpect(status().is3xxRedirection());
+                .andExpect(status().isOk());
 
                 // assert
               //  .andExpect(content().string("The answer is 42!"));
