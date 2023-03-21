@@ -36,4 +36,4 @@ workflows:
       # Inside the workflow, you define the jobs you want to run.
       jobs:
         - build-and-test
-            #test_directory: /src/test/java/com/company/hellocircle/controller/HelloCircleController
+            test_directory: '/src/test/java/com/company/hellocircle/controller/HelloCircleController'

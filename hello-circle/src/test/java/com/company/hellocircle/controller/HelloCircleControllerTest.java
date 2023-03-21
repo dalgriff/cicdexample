@@ -17,7 +17,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(HelloCircleController.class)
-@Profile("test")
 public class HelloCircleControllerTest {
 
     @Autowired
