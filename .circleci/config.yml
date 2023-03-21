@@ -27,6 +27,7 @@ jobs:
       # Then run your tests!
       - run:
           name: Test
+          test_directory: /src/test/java/com/company/hellocircle/controller/HelloCircleController
           command: mvn test
 
     # Invoke jobs via workflows
@@ -36,4 +37,4 @@ workflows:
       # Inside the workflow, you define the jobs you want to run.
       jobs:
         - build-and-test
-            test_directory: '/src/test/java/com/company/hellocircle/controller/HelloCircleController'
+
